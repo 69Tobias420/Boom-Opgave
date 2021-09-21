@@ -1,0 +1,30 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1vw;
+    background-color: rgb(124, 18, 18);
+    display: flex;
+    justify-content:flex-end;
+
+  }
+ nav li a {
+    color: white;
+    text-decoration: none;
+    margin: 3vw;
+    padding: 1vw;
+    position: relative;
+  }
+
+  nav li a:hover {
+    background-color: #111;
+  }
+
+.navbar_logo_img {
+    width: 3vw;
+}
+*{
+    text-decoration: none;
+}
+.navbar_logo_img {
+
+}
