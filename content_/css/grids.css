@@ -1,0 +1,28 @@
+/* MY GRID SYSTEM */
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6{
+    display: grid;
+    gap: 1em;
+}
+.col-1{
+    grid-template-columns: auto;
+}
+.col-2{
+    grid-template-columns: auto auto;
+}
+.col-3{
+    grid-template-columns: auto auto auto;
+}
+.col-4{
+    grid-template-columns: auto auto auto auto;
+}
+.col-5{
+    grid-template-columns: auto auto auto auto auto;
+}
+.col-6{
+    grid-template-columns: auto auto auto auto auto auto;
+}
