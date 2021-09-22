@@ -4,3 +4,37 @@
 
 /* @Media Queries*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: PlayfairDisplay-Regular;
+    src: url(/_files/Playfair_Display/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: PlayfairDisplay-Italic;
+    src: url(/_files/Playfair_Display/PlayfairDisplay-Italic.ttf);
+}
+@font-face {
+    font-family: PlayfairDisplay-Bold;
+    src: url(/_files/Playfair_Display/PlayfairDisplay-Bold.ttf);
+}
