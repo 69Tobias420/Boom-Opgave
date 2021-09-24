@@ -1,0 +1,60 @@
+
+@media screen and (min-width: 800px) {
+.drkmd {
+    display:none;
+}
+}
+@media screen and (max-width: 800px) {
+    body {
+        background-color: rgb(231, 231, 231);
+        transition: 1000ms;
+    }
+    .drkmd {
+        display:none;
+    }
+    .max-width-90 {
+        max-width: 100%;
+}
+}
+@media screen and (max-width: 680px) {
+    body {
+        background-color: rgb(19, 19, 19);
+        transition: 1000ms;
+    }
+    .max-width-90 {
+        max-width: 100%;
+    }
+    .area-control-div {
+        display: grid;
+        grid-template-areas: "b b"
+                             "b b"
+                             "a a"
+                             "a a"
+                             "c c"
+                             "c c"
+                             "d d"
+                             "d d"
+                            ;
+        gap: 1em;
+    }
+    p {
+        font-size: 5vw;
+    }
+    h6 {
+        font-size: 6vw;
+    }
+    nav ul li a {
+        display:none;
+    }
+    nav ul li {
+        padding: 11px;
+    }
+    .navbar_logo_img {
+        width: 30px;
+    }
+    .drkmd {
+        display:contents;
+        font-size: 3vw;
+        
+    }
+}

@@ -38,6 +38,7 @@
 }
 
 .max-width-90 {
+    transition: 2000ms;
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -56,12 +57,12 @@
 }
 p {
     font-family: PlayfairDisplay-regular;
-    font-size: 25px;
+    font-size: 1vw;
     color:grey;
 }
 h6 {
     font-family: PlayfairDisplay-Bold;
-    font-size: 40px;
+    font-size: 3vw;
     color:grey;
     margin:0;
 }
