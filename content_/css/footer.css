@@ -48,3 +48,18 @@
 #social-media {
 vertical-align: bottom;
 }
+h5 span {
+    color:rgb(184, 184, 184);
+    font-size: 10vw;
+    font-family: PlayfairDisplay-regular;
+    text-align: center;
+    margin-left: 1vw;
+}
+h5 {
+    color: rgb(112, 112, 112);
+    font-size: 10vw;
+    font-family: PlayfairDisplay-regular;
+    text-align: center;
+    margin-left: 1vw;
+    margin:0;
+}
