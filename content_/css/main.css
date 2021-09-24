@@ -24,8 +24,6 @@
 
 
 
-
-
 @font-face {
     font-family: PlayfairDisplay-Regular;
     src: url(/_files/Playfair_Display/PlayfairDisplay-Regular.ttf);
@@ -37,4 +35,89 @@
 @font-face {
     font-family: PlayfairDisplay-Bold;
     src: url(/_files/Playfair_Display/PlayfairDisplay-Bold.ttf);
+}
+
+.max-width-90 {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.yellow-picture {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.video-picture {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    font-family: PlayfairDisplay-regular;
+    font-size: 25px;
+    color:grey;
+}
+h3 {
+    font-family: PlayfairDisplay-Bold;
+    font-size: 40px;
+    color:grey;
+}
+h2 {
+        font-family: PlayfairDisplay-Bold;
+}
+article a {
+    text-decoration: none;
+    font-size: 20px;
+    float: right;
+    color:grey;
+}
+.img-1 {
+    width: 100%;
+}
+.img-2 {
+    width: 100%;
+    opacity: 70%
+}
+.area-control-div {
+    display: grid;
+    grid-template-areas: "b b a a"
+                         "b b a a"
+                         "d d c c"
+                         "d d c c"
+                        ;
+    gap: 1em;
+
+}
+
+.area1 {
+    grid-area: a;
+   }
+.area2 {
+    grid-area: b;
+   }
+.area3 {
+    grid-area: c;
+   }
+.area4 {
+    grid-area: d;
+   }
+.light-grey {
+    color:rgb(184, 184, 184);
+    font-size: 11vw;
+    font-family: PlayfairDisplay-regular;
+    text-align: center;
+    margin-left: 1vw;
+}
+.dark-grey {
+    color: rgb(112, 112, 112);
+    font-size: 11vw;
+    font-family: PlayfairDisplay-regular;
+    text-align: center;
+    margin-left: 1vw;
+}
+.unka-unka {
+    text-align: center;
+    font-family: PlayfairDisplay-regular;
 }
